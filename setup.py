@@ -137,6 +137,7 @@ setup_args = {
             'ipyevents/static/index.js',
             'ipyevents/static/index.js.map',
         ]),
+        ("etc/jupyter/nbconfig/notebook.d/", ["stan_syntax.json"]),
     ],
     'install_requires': [
         'ipywidgets>=7.0.0',
